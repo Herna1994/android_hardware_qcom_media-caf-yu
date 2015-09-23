@@ -1,4 +1,4 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-media))
+ifeq ($(TARGET_QCOM_MEDIA_VARIANT),caf-yu)
 QCOM_MEDIA_ROOT := $(call my-dir)
 
 #Compile these for all targets under QCOM_BOARD_PLATFORMS list.
